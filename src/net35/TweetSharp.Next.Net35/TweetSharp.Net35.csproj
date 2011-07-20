@@ -44,9 +44,8 @@
     <Reference Include="Hammock.ClientProfile">
       <HintPath>..\..\packages\Hammock.1.2.3\lib\net35-client\Hammock.ClientProfile.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json.Net35, Version=4.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Newtonsoft.Json.4.0.1\lib\35\Newtonsoft.Json.Net35.dll</HintPath>
+    <Reference Include="Newtonsoft.Json.Net35">
+      <HintPath>..\..\packages\Newtonsoft.Json.4.0.2\lib\net35\Newtonsoft.Json.Net35.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -217,6 +216,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assembly.ico" />

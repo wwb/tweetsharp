@@ -47,7 +47,7 @@
       <HintPath>..\..\packages\Hammock.1.2.3\lib\net20\LinqBridge.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json.Net20">
-      <HintPath>..\..\packages\Newtonsoft.Json.4.0.1\lib\20\Newtonsoft.Json.Net20.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.4.0.2\lib\net20\Newtonsoft.Json.Net20.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -215,6 +215,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="key.snk" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assembly.ico" />
